@@ -1,0 +1,60 @@
+.box{
+    border:none;
+   height:430px;    
+   border-radius: 10px;
+   background-color: white;
+   /* width: ; */
+    /* display: flexbox;
+    justify-content: space-around; */
+}
+body{
+    background-color: rgb(194, 193, 193);
+}
+.container{
+    /* position: relative;
+    top: */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:93px;
+    margin-left : 10px;
+    text-align: center;
+}
+img{
+    height:150px;
+    position: relative;
+    /* left:59px; */
+}
+
+.card-body span{
+    color: green;
+}
+.card .gmaps{
+    position: relative;
+    height: 40px;
+    left: 105px;
+    border-radius: 50%;
+    top: 8px;
+}
+
+.gmaps:hover{
+    cursor:pointer;
+    box-shadow: 10px 5px 5px rgb(94, 91, 91);
+}
+.container button{
+    position: relative;
+    top:30px;
+    width: 222px;
+    background-color:green;
+    border:1px solid green;
+    border-radius: 3px;
+    color:white;
+    padding:5px;
+    font-weight: bolder;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color:black;
+    border:1px solid lightgreen;
+}

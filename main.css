@@ -1,0 +1,26 @@
+.parkimg img{
+    height: 532px;
+    position: relative;
+    top:57px;
+    left: 244px;
+}
+/* .payment{
+    position: absolute;
+    top:-77;
+} */
+.container{
+    display: flex;
+}
+.payment{
+    /* align-items: end; */
+    position: relative;
+    top:233px;
+    left: 455px;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+}
+hr{
+    font-weight: bolder;
+}
